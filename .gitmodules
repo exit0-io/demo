@@ -1,0 +1,6 @@
+[submodule ".exit0/e0"]
+	path = .exit0/e0
+	url = https://github.com/exit0-io/e0.git
+[submodule ".exit0/content"]
+	path = .exit0/content
+	url = https://github.com/exit0-io/demo-content.git
