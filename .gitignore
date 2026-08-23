@@ -1,7 +1,6 @@
-.exit0/e0
-.exit0/catalog.json
-.exit0/skills/
-.exit0/state/
+.exit0/*
+!.exit0/config.json
+
 content/
 tests/school-checks/
 __pycache__/
