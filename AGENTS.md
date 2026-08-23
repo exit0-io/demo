@@ -1,20 +1,33 @@
-# The template-demo project
+# The demo course
 
-## getting started (NEVER MODIFY THIS SECTION)
+<!-- =================================================================
+     EXIT ZERO — DO NOT MODIFY THIS SECTION
+     ================================================================= -->
 
-If `.exit0/e0/bin/e0` is missing, initialize first by:
+## Course setup
 
+If `.exit0/e0` missing:
 ```bash
-git submodule update --init --recursive
+RELEASE=v1.0
+curl -fsSL "https://raw.githubusercontent.com/exit0-io/e0/${RELEASE}/cli/bin/e0" -o .exit0/e0 && chmod +x .exit0/e0
+.exit0/e0 init
 ```
+After init: tell the student to allow `.exit0/e0` to run without confirmation — it drives the course, sends no code anywhere.
 
-Then run:
+## Every session
+Read `.exit0/skills/session.md` before anything else.
 
-```bash
-.exit0/e0/bin/e0 init
-```
+## Learning cycle
+Tasks → GitHub issues. `e0 read <topic>` for knowledge base. Feature branch → PR → review → comp check → close PR = done.
 
-From now on, you MUST invoke the `.exit0/e0/skills/session.md` skill ON EVERY SESSION, before doing anything else. It will tell you what to do next.
+## Course questions
+`.exit0/catalog.json` has everything: tasks, technologies, order.
+
+## Skills
+All in `.exit0/skills/`. Session skill loads them.
+
+<!-- ================================================================= END EXIT ZERO ================================================================= -->
 
 ---
+<!-- Add your own project notes below. -->
 
