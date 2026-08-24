@@ -6,28 +6,26 @@
 
 ## Course setup
 
-If `.exit0/e0` missing:
-```bash
-RELEASE=v1.0
-curl -fsSL "https://raw.githubusercontent.com/exit0-io/e0/${RELEASE}/cli/bin/e0" -o .exit0/e0 && chmod +x .exit0/e0
-.exit0/e0 init
-```
-After init: tell the student to allow `.exit0/e0` to run without confirmation — it drives the course, sends no code anywhere.
+If `.exit0/e0` is absent, read `.exit0/README.md` and follow the setup steps there.
 
-## Every session
-Read `.exit0/skills/session.md` before anything else.
+## Learning cycle 
 
-## Learning cycle
 Tasks → GitHub issues. `e0 read <topic>` for knowledge base. Feature branch → PR → review → comp check → close PR = done.
 
-## Course questions
-`.exit0/catalog.json` has everything: tasks, technologies, order.
+If you don't know what to do, run `e0 status`. It gives you a full workflow status, tells you where you are, and what the next step is.
 
-## Skills
-All in `.exit0/skills/`. Session skill loads them.
+## Course-Specific Guidance
 
-<!-- ================================================================= END EXIT ZERO ================================================================= -->
+When the student asks a technical question related to the course, **the course materials are the source of truth**. Always read `.exit0/catalog.json` first; if needed, use `e0 read` to access the relevant document.
+
+NEVER replace course-specific guidance with your general technical knowledge or industry best practices. Follow what the course teaches, even when a different approach may be more common or appropriate in industry. If the course does not cover the question, say so explicitly (e.g., “This is not covered in the course material, but based on general knowledge...”) before providing an answer
+
+<!-- =================================================================
+     END EXIT ZERO 
+     ================================================================= -->
 
 ---
-<!-- Add your own project notes below. -->
+
+
+<!-- Add your own project notes here. -->
 

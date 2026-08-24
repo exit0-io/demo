@@ -1,5 +1,6 @@
 .exit0/*
 !.exit0/config.json
+!.exit0/README.md
 
 content/
 tests/school-checks/
