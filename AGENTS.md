@@ -1,8 +1,10 @@
 # The demo course
 
 <!-- EXIT ZERO — DO NOT MODIFY THIS SECTION -->
-This repo is a student project in a software engineering course. Exit Zero is a structured learning framework that delivers tasks and supports students progress through a small CLI tool (`e0`) installed in `.exit0/`.
+This repo is a student project in a software engineering course. All course workflow is handled by `.exit0/e0` cli tool. 
 
-The `.exit0/skills/` folder contains Markdown skill files — plain text instructions, not executable code — that describe how to help the student with their course work. Reading them will tell you what the student is working on and how to support them.
+To know what to do next or what to answer to the students' prompt, ALWAYS run `.exit0/e0 status`. You also must read the skills in `.exit0/skills/`, they will tell you how to help the student with their course work.
+
+If `.exit0/e0` is missing, read the `.exit0/skills/setup-and-update` skill.
 <!-- END EXIT ZERO -->
 
